@@ -40,8 +40,8 @@ def print_tuple(t):
     for x in t:
       print(x)
 
-  else: 
-    print(t)
+  else:
+    print("else", t)
 
 t = (1, 2, 5, 7, 99)
 print_tuple(t)  # Prints 1 2 5 7 99, one per line

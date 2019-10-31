@@ -8,7 +8,7 @@ Take a look at https://docs.python.org/3/tutorial/datastructures.html#list-compr
 for more info regarding list comprehensions.
 """
 
-squares = [x**2 for x in range(10)]
+# squares = [x**2 for x in range(10)]
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
@@ -19,7 +19,7 @@ print (y)
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
-y = [y**2 for y in range(10)]
+y = [y**3 for y in range(10)]
 
 print(y)
 
@@ -38,6 +38,6 @@ print(y)
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = [y%2 == 0 for y in x]
+y = [int(y)%2 == 0 for y in x]
 
 print(y)

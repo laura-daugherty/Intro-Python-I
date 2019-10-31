@@ -12,7 +12,6 @@ import sys
 # YOUR CODE HERE
 print("printing")
 print(sys.argv)
-print(sys.getfilesystemencoding())
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE

@@ -13,8 +13,8 @@ print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE 
-for z in y:
-  x.append(z)
+for num in y:
+  x.append(num)
 
 print(x)
 
@@ -36,6 +36,5 @@ print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
 
-b = x
-x[:] = [z*1000 for z in x]
-print(b)
+x[:] = [num*1000 for num in x]
+print(x)
