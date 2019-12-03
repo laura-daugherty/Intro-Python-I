@@ -16,5 +16,12 @@ with open('foo.txt') as f:
 # writing. Write three lines of arbitrary content to that file,
 # then close the file. Open up "bar.txt" and inspect it to make 
 # sure that it contains what you expect it to contain
-with open(bar.txt) as w
+w = open('bar.txt', 'r+')
+w.write('This is a test\n 2nd line\n 3rd line')
+w.close()
+w = open('bar.txt', 'r+')
+read_data = w.read()
+print("read_data", read_data)
+w.close
+
 # YOUR CODE HERE
